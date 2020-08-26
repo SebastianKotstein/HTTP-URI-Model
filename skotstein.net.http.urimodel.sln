@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skotstein.net.http.urimodel", "skotstein.net.http.urimodel\skotstein.net.http.urimodel.csproj", "{1F5CDDB4-5D08-43EE-846C-D404322C1B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skotstein.net.http.urimodel.openapi", "skotstein.net.http.urimodel.openapi\skotstein.net.http.urimodel.openapi.csproj", "{15F559B4-CED7-448C-9F3F-A7F8464FCD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skotstein.net.http.urimodel.openapi.test", "skotstein.net.http.urimodel.openapi.test\skotstein.net.http.urimodel.openapi.test.csproj", "{E97FCDC5-815B-4BB7-A487-FA9903C58E20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F5CDDB4-5D08-43EE-846C-D404322C1B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5CDDB4-5D08-43EE-846C-D404322C1B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5CDDB4-5D08-43EE-846C-D404322C1B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5CDDB4-5D08-43EE-846C-D404322C1B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F559B4-CED7-448C-9F3F-A7F8464FCD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F559B4-CED7-448C-9F3F-A7F8464FCD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F559B4-CED7-448C-9F3F-A7F8464FCD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F559B4-CED7-448C-9F3F-A7F8464FCD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97FCDC5-815B-4BB7-A487-FA9903C58E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97FCDC5-815B-4BB7-A487-FA9903C58E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97FCDC5-815B-4BB7-A487-FA9903C58E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97FCDC5-815B-4BB7-A487-FA9903C58E20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D937441-693F-4CF0-A3FB-BE449493AB8D}
+	EndGlobalSection
+EndGlobal
