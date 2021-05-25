@@ -259,8 +259,9 @@ namespace skotstein.net.http.urimodel.openapi
             return new OApiPathParameter(parameter);
         }
 
-        protected Operation GenerateOperation(OpenApiOperation operation, OperationType type, PathSegment pathSegment)
+        protected virtual Operation GenerateOperation(OpenApiOperation operation, OperationType type, PathSegment pathSegment) 
         {
+
             HttpMethod method;
             switch (type)
             {

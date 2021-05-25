@@ -33,6 +33,8 @@ namespace skotstein.net.http.urimodel.openapi
     /// </summary>
     public class OApiOperation : Operation
     {
+        public static readonly string TEST = "REST";
+
         private OpenApiOperation _openApiOperation;
 
         /// <summary>
